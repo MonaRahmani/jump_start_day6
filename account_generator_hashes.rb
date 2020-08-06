@@ -1,4 +1,4 @@
-# initiate an empty array to store all student information
+# initiated an empty array to store all students information
 student_data = []
 # counter
 count = 1
@@ -9,7 +9,7 @@ puts "enter 5 students full name: "
 5.times do 
   # emty hash to store students info
   each_studen_hash = {}
-  
+
   print "student number #{count}: "
   student_name = gets.chomp.upcase
   # assign studen name to the key "name"
