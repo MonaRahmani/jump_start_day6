@@ -11,7 +11,7 @@ count = 1
 puts "enter 5 students full name: "
 
 # asks the user to enter in 5 student names & store those values in the name array
-5.times do 
+2.times do 
   print "student number #{count}: "
   student_name = gets.chomp.upcase
   names.push(student_name)

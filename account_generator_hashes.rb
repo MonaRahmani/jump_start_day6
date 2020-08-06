@@ -6,8 +6,8 @@ count = 1
 
 puts "enter 5 students full name: "
 
-5.times do 
-  # emty hash to store students info
+2.times do 
+  # empty hash to store students info
   each_studen_hash = {}
 
   print "student number #{count}: "
@@ -43,11 +43,8 @@ puts
 puts "================== Student Information ======================"
 # printout each student info
 student_data.each do |student|
-  student.each do |key, value|
-    puts "Name: #{student[:name]}"
-    puts "ID: #{student[:id]}"
-    puts "email: #{student[:email]}"
-    puts "======================================================="
-  end
+  puts "Name: #{student[:name]}"
+  puts "ID: #{student[:id]}"
+  puts "email: #{student[:email]}"
+  puts "======================================================="
 end
-
